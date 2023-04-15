@@ -22,6 +22,7 @@ btnEnviar.addEventListener('click', function () {
         console.log(`Correo: ${correo.value}`);
         console.log(`Asunto: ${asunto.value}`);
         console.log(`Mensaje: ${mensaje.value}`);
+        falta = true;
     }
 })
 
